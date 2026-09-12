@@ -1,0 +1,20 @@
+{
+  "name": "itinero-mcp",
+  "interface": {
+    "displayName": "Itinero Mcp"
+  },
+  "plugins": [
+    {
+      "name": "itinero",
+      "source": {
+        "source": "local",
+        "path": "./plugins/itinero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

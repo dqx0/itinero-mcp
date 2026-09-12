@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "itinero": {
+      "type": "http",
+      "url": "https://trip.dqx0.com/mcp"
+    }
+  }
+}

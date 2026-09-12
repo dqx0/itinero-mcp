@@ -1,0 +1,20 @@
+{
+  "name": "itinero-mcp",
+  "owner": {
+    "name": "dqx0",
+    "url": "https://github.com/dqx0"
+  },
+  "description": "Itinero integrations for Claude Code.",
+  "metadata": {
+    "description": "Itinero integrations for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "itinero",
+      "source": "./plugins/itinero",
+      "description": "Connect your AI to Itinero to manage trips through a shared trip URL. No login required.",
+      "version": "1.1.0",
+      "category": "Productivity"
+    }
+  ]
+}
